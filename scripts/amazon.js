@@ -1,6 +1,8 @@
-import {cart,addToCart} from './cart.js'
+import {cart,addToCart,loadFromStorage} from '../data/cart.js';
 import { products } from '../data/products.js';
 import { formatCurrency } from './utils/money.js';
+
+loadFromStorage()
 let productsHTML=""
 products.forEach((product)=>{
    productsHTML=productsHTML+`
