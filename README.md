@@ -52,6 +52,4 @@ This is a frontend eCommerce project inspired by Amazon, built using vanilla Jav
 - Real payment gateway
 - API-based product loading
 
-## 👨‍💻 Author
 
-Your Name
